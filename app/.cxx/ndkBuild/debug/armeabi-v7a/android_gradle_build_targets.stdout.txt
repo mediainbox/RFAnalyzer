@@ -1,0 +1,8 @@
+Android NDK: WARNING: Unsupported source file extensions in D:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/Android.mk for module shout    
+Android NDK:   timing    
+make: Nothing to be done for `lamemp3'.
+make: Nothing to be done for `ogg'.
+make: Nothing to be done for `shout'.
+make: Nothing to be done for `shout-jni'.
+make: Nothing to be done for `vorbis'.
+make: Nothing to be done for `vorbis-jni'.

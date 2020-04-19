@@ -1,0 +1,34 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        applicationId "com.mantz_it.rfanalyzer"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1303
+        versionName "1.13"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    externalNativeBuild {
+        ndkBuild {
+            version '3.10.2'
+            path "src/main/cpp/jni/Android.mk"
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+//    implementation fileTree(dir: 'jniLibs', include: ['*.so'])
+    implementation project(':hackrf_android')
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+}

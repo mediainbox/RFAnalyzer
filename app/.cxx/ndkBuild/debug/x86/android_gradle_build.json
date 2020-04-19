@@ -1,0 +1,651 @@
+{
+  "buildFiles": [
+    "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk",
+    "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "buildTargetsCommand": "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "lamemp3-debug-x86": {
+      "buildCommand": "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj/local/x86/liblamemp3.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "lamemp3",
+      "files": [
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\ice_caster_android_shout_Lame.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\VbrTag.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\bitstream.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\encoder.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\fft.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\gain_analysis.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\id3tag.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\lame.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\mpglib_interface.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\newmdct.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\presets.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\psymodel.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\quantize.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\quantize_pvt.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\reservoir.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\set_get.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\tables.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\takehiro.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\util.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\vbrquantize.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\version.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        }
+      ],
+      "output": "D:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\liblamemp3.so"
+    },
+    "shout-jni-debug-x86": {
+      "buildCommand": "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj/local/x86/libshout-jni.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "shout-jni",
+      "files": [
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libogg\\bitwise.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libogg\\framing.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout-jni\\ice_caster_android_shout_ShoutOutputStream.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout-jni -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout-jni/../include -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\avl\\avl.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\httpp\\httpp.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\mp3.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\net\\resolver.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\net\\sock.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\ogg.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\shout.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\thread\\thread.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\timing\\timing.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\util.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\vorbis.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\analysis.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\bitrate.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\block.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\codebook.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\envelope.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\floor0.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\floor1.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\info.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\lookup.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\lpc.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\lsp.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\mapping0.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\mdct.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\psy.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\registry.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\res0.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\sharedbook.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\smallft.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\synthesis.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\vorbisenc.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\vorbisfile.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\window.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        }
+      ],
+      "output": "D:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\libshout-jni.so"
+    },
+    "vorbis-debug-x86": {
+      "buildCommand": "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj/local/x86/libvorbis.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "vorbis",
+      "files": [
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libogg\\bitwise.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libogg\\framing.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\analysis.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\bitrate.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\block.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\codebook.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\envelope.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\floor0.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\floor1.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\info.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\lookup.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\lpc.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\lsp.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\mapping0.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\mdct.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\psy.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\registry.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\res0.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\sharedbook.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\smallft.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\synthesis.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\vorbisenc.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\vorbisfile.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\window.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        }
+      ],
+      "output": "D:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\libvorbis.so"
+    },
+    "shout-debug-x86": {
+      "buildCommand": "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj/local/x86/libshout.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "shout",
+      "files": [
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libogg\\bitwise.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libogg\\framing.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\avl\\avl.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\httpp\\httpp.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\mp3.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\net\\resolver.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\net\\sock.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\ogg.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\shout.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\thread\\thread.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\timing\\timing.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\util.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\vorbis.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\analysis.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\bitrate.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\block.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\codebook.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\envelope.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\floor0.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\floor1.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\info.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\lookup.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\lpc.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\lsp.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\mapping0.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\mdct.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\psy.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\registry.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\res0.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\sharedbook.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\smallft.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\synthesis.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\vorbisenc.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\vorbisfile.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\window.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        }
+      ],
+      "output": "D:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\libshout.so"
+    },
+    "vorbis-jni-debug-x86": {
+      "buildCommand": "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj/local/x86/libvorbis-jni.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "vorbis-jni",
+      "files": [
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libogg\\bitwise.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libogg\\framing.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis-jni\\org_xiph_vorbis_decoder_VorbisDecoder.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis-jni -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis-jni/../include -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis-jni\\org_xiph_vorbis_encoder_VorbisEncoder.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis-jni -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis-jni/../include -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\analysis.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\bitrate.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\block.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\codebook.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\envelope.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\floor0.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\floor1.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\info.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\lookup.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\lpc.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\lsp.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\mapping0.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\mdct.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\psy.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\registry.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\res0.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\sharedbook.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\smallft.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\synthesis.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\vorbisenc.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\vorbisfile.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\window.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        }
+      ],
+      "output": "D:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\libvorbis-jni.so"
+    },
+    "ogg-debug-x86": {
+      "buildCommand": "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj/local/x86/libogg.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "ogg",
+      "files": [
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libogg\\bitwise.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libogg\\framing.c",
+          "flags": "-target i686-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg/../include -ffast-math -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        }
+      ],
+      "output": "D:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\libogg.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86": {
+      "cCompilerExecutable": "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

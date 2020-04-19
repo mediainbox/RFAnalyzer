@@ -1,0 +1,69 @@
+CHANGELOG - RF Analyzer
+
+version 1.13
+ - Bookmark frequencies
+ - Including hackrf_android 1.12 (support for rad1o)
+ - Select unit for frequency and bandwidth (MHz,kHz,Hz) in jump dialog
+ - Support for Marshmallow permission model
+ - Many bugfixes
+
+version 1.12
+ - Gain settings are applied in real time
+ - New setting to show frequencies on the horizontal axis relative to the center frequency
+ - Including hackrf_android 1.10 (fix for Jawbreaker boards)
+ - Fixing file selection of file source for content:// links
+
+version 1.11
+ - Switched to Material design for Android 5.0 devices
+ - Fixed 'Shift' setting (was broken in 1.10)
+ - Minor bug fixes
+
+version 1.10
+ - Added single sideband demodulation (LSB and USB)
+ - Added raw IQ recording
+ - Shift displayed frequencies by an offset (for upconverters)
+ - Improvements:
+    - No averaging in waterfall
+    - Tap to select demodulation frequency; Needle is fixed while scrolling
+    - Auto-detect file source settings (frequency, sample rate) based on the selected file name
+    - Adding Android 5.0 (Lollipop) to supported Android versions
+    - Using hackrf_android 1.09
+    - Bugfixes
+
+version 1.09
+ - RTL-SDR support (EXPERIMENTAL)
+ - Updating hackrf_android libary to version 1.08
+
+version 1.08
+ - Enable/disable HackRF amplifier and antenna power in settings
+ - Setting to decouple the vertical and horizontal axis while zooming/scrolling
+ - Font size adjustable: small/medium/large
+ - DSP optimizations
+
+version 1.07
+ - AM/FM demodulation
+ - Adjustable squelch and channel width
+ - Adjustable proportion of spectrum and waterfall
+
+version 1.06
+ - New launcher icon
+ - First version available in Google Play
+
+version 1.05:
+ - Fixed crash on application start when double tapping the screen
+ - Optimized auto-retuning on scrolling
+
+version 1.04:
+ - Optimized sample rates for HackRF: allow only 4, 6, 8, 10, 12.5, 16 and 20 Msps
+ - Automatically re-tune while scrolling and zooming
+ - Added peak hold option
+ - Added averaging option
+
+version 1.03:
+ - Fixed bug: Strange behaviour when tuning to very low frequencies
+ - Fixed bug: Zooming too close breaks zooming mechanism
+ - Added different color mappings for the waterfall plot: JET, HOT, GQRX
+ - Optimized drawing process
+ - Added new drawing mode 'line' for FFT which also increases performance
+ - Added UP navigation in settings activity
+ - The frequency dialog now also accepts values in MHz

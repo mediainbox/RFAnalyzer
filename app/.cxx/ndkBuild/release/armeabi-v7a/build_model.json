@@ -1,0 +1,60 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "D:\\Work\\Android\\02_RFAnalyzer",
+      "sdkFolder": "d:\\Tools\\SDK\\Android",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "D:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "D:\\Work\\Android\\02_RFAnalyzer\\app",
+      "makeFile": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk",
+      "buildSystem": "NDK_BUILD",
+      "compilerSettingsCacheFolder": "D:\\Work\\Android\\02_RFAnalyzer\\.cxx",
+      "cxxFolder": "D:\\Work\\Android\\02_RFAnalyzer\\app\\.cxx",
+      "ndkFolder": "d:\\Tools\\SDK\\Android\\ndk\\20.1.5948944",
+      "ndkVersion": "20.1.5948944",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "release",
+    "soFolder": "D:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\release\\lib",
+    "objFolder": "D:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local",
+    "jsonFolder": "D:\\Work\\Android\\02_RFAnalyzer\\app\\.cxx\\ndkBuild\\release",
+    "gradleBuildOutputFolder": "D:\\Work\\Android\\02_RFAnalyzer\\app\\.cxx\\cxx\\release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 21,
+  "cxxBuildFolder": "D:\\Work\\Android\\02_RFAnalyzer\\app\\.cxx\\ndkBuild\\release\\armeabi-v7a",
+  "jsonFile": "D:\\Work\\Android\\02_RFAnalyzer\\app\\.cxx\\ndkBuild\\release\\armeabi-v7a\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "D:\\Work\\Android\\02_RFAnalyzer\\app\\.cxx\\cxx\\release\\armeabi-v7a",
+  "objFolder": "D:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a",
+  "buildCommandFile": "D:\\Work\\Android\\02_RFAnalyzer\\app\\.cxx\\ndkBuild\\release\\armeabi-v7a\\build_command.txt",
+  "buildOutputFile": "D:\\Work\\Android\\02_RFAnalyzer\\app\\.cxx\\ndkBuild\\release\\armeabi-v7a\\build_output.txt",
+  "modelOutputFile": "D:\\Work\\Android\\02_RFAnalyzer\\app\\.cxx\\ndkBuild\\release\\armeabi-v7a\\build_model.json",
+  "jsonGenerationLoggingRecordFile": "D:\\Work\\Android\\02_RFAnalyzer\\app\\.cxx\\ndkBuild\\release\\armeabi-v7a\\json_generation_record.json",
+  "compileCommandsJsonFile": "D:\\Work\\Android\\02_RFAnalyzer\\app\\.cxx\\ndkBuild\\release\\armeabi-v7a\\compile_commands.json"
+}

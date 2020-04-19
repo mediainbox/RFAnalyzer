@@ -1,0 +1,48 @@
+{
+  "buildFiles": [
+    "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk",
+    "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "buildTargetsCommand": "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "shout-jni-debug-armeabi-v7a": {
+      "artifactName": "shout-jni",
+      "buildCommand": "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libshout-jni.so",
+      "abi": "armeabi-v7a",
+      "output": "D:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libshout-jni.so"
+    },
+    "lamemp3-debug-armeabi-v7a": {
+      "artifactName": "lamemp3",
+      "buildCommand": "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/liblamemp3.so",
+      "abi": "armeabi-v7a",
+      "output": "D:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\liblamemp3.so"
+    },
+    "shout-debug-armeabi-v7a": {
+      "artifactName": "shout",
+      "buildCommand": "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libshout.so",
+      "abi": "armeabi-v7a",
+      "output": "D:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libshout.so"
+    },
+    "vorbis-debug-armeabi-v7a": {
+      "artifactName": "vorbis",
+      "buildCommand": "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libvorbis.so",
+      "abi": "armeabi-v7a",
+      "output": "D:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libvorbis.so"
+    },
+    "ogg-debug-armeabi-v7a": {
+      "artifactName": "ogg",
+      "buildCommand": "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libogg.so",
+      "abi": "armeabi-v7a",
+      "output": "D:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libogg.so"
+    },
+    "vorbis-jni-debug-armeabi-v7a": {
+      "artifactName": "vorbis-jni",
+      "buildCommand": "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libvorbis-jni.so",
+      "abi": "armeabi-v7a",
+      "output": "D:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libvorbis-jni.so"
+    }
+  }
+}

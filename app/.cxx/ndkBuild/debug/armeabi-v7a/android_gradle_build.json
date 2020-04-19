@@ -1,0 +1,651 @@
+{
+  "buildFiles": [
+    "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk",
+    "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "buildTargetsCommand": "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "shout-jni-debug-armeabi-v7a": {
+      "buildCommand": "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libshout-jni.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "shout-jni",
+      "files": [
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libogg\\bitwise.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libogg\\framing.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout-jni\\ice_caster_android_shout_ShoutOutputStream.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout-jni -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout-jni/../include -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\avl\\avl.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\httpp\\httpp.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\mp3.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\net\\resolver.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\net\\sock.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\ogg.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\shout.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\thread\\thread.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\timing\\timing.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\util.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\vorbis.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\analysis.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\bitrate.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\block.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\codebook.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\envelope.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\floor0.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\floor1.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\info.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\lookup.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\lpc.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\lsp.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\mapping0.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\mdct.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\psy.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\registry.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\res0.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\sharedbook.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\smallft.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\synthesis.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\vorbisenc.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\vorbisfile.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\window.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "D:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libshout-jni.so"
+    },
+    "lamemp3-debug-armeabi-v7a": {
+      "buildCommand": "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/liblamemp3.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "lamemp3",
+      "files": [
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\ice_caster_android_shout_Lame.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\VbrTag.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\bitstream.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\encoder.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\fft.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\gain_analysis.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\id3tag.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\lame.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\mpglib_interface.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\newmdct.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\presets.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\psymodel.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\quantize.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\quantize_pvt.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\reservoir.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\set_get.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\tables.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\takehiro.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\util.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\vbrquantize.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\liblame-jni\\liblame\\version.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/liblame-jni -DSTDC_HEADERS -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "D:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\liblamemp3.so"
+    },
+    "shout-debug-armeabi-v7a": {
+      "buildCommand": "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libshout.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "shout",
+      "files": [
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libogg\\bitwise.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libogg\\framing.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\avl\\avl.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\httpp\\httpp.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\mp3.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\net\\resolver.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\net\\sock.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\ogg.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\shout.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\thread\\thread.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\timing\\timing.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\util.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libshout\\vorbis.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libshout/../include -fsigned-char -DHAVE_CONFIG_H\u003d1 -ffast-math -fsigned-char -pthread -O2 -ffast-math -DHAVE_CUALQUIERVARIABLE\u003d1 -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\analysis.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\bitrate.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\block.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\codebook.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\envelope.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\floor0.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\floor1.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\info.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\lookup.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\lpc.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\lsp.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\mapping0.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\mdct.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\psy.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\registry.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\res0.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\sharedbook.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\smallft.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\synthesis.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\vorbisenc.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\vorbisfile.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\window.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "D:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libshout.so"
+    },
+    "vorbis-debug-armeabi-v7a": {
+      "buildCommand": "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libvorbis.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "vorbis",
+      "files": [
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libogg\\bitwise.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libogg\\framing.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\analysis.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\bitrate.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\block.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\codebook.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\envelope.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\floor0.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\floor1.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\info.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\lookup.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\lpc.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\lsp.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\mapping0.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\mdct.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\psy.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\registry.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\res0.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\sharedbook.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\smallft.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\synthesis.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\vorbisenc.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\vorbisfile.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\window.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "D:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libvorbis.so"
+    },
+    "ogg-debug-armeabi-v7a": {
+      "buildCommand": "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libogg.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "ogg",
+      "files": [
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libogg\\bitwise.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libogg\\framing.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "D:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libogg.so"
+    },
+    "vorbis-jni-debug-armeabi-v7a": {
+      "buildCommand": "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libvorbis-jni.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "vorbis-jni",
+      "files": [
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libogg\\bitwise.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libogg\\framing.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libogg/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis-jni\\org_xiph_vorbis_decoder_VorbisDecoder.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis-jni -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis-jni/../include -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis-jni\\org_xiph_vorbis_encoder_VorbisEncoder.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis-jni -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis-jni/../include -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\analysis.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\bitrate.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\block.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\codebook.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\envelope.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\floor0.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\floor1.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\info.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\lookup.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\lpc.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\lsp.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\mapping0.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\mdct.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\psy.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\registry.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\res0.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\sharedbook.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\smallft.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\synthesis.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\vorbisenc.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\vorbisfile.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\libvorbis\\window.c",
+          "flags": "-target armv7-none-linux-androideabi21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Tools/SDK/Android/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis -DSTDC_HEADERS -DANDROID -ID:/Work/Android/02_RFAnalyzer/app/src/main/cpp/jni/libvorbis/../include -ffast-math -fsigned-char -march\u003darmv6 -marm -mfloat-abi\u003dsoftfp -mfpu\u003dvfp -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "D:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libvorbis-jni.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cCompilerExecutable": "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

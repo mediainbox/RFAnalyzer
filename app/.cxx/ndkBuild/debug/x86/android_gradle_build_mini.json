@@ -1,0 +1,48 @@
+{
+  "buildFiles": [
+    "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk",
+    "D:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "buildTargetsCommand": "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "lamemp3-debug-x86": {
+      "artifactName": "lamemp3",
+      "buildCommand": "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj/local/x86/liblamemp3.so",
+      "abi": "x86",
+      "output": "D:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\liblamemp3.so"
+    },
+    "shout-jni-debug-x86": {
+      "artifactName": "shout-jni",
+      "buildCommand": "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj/local/x86/libshout-jni.so",
+      "abi": "x86",
+      "output": "D:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\libshout-jni.so"
+    },
+    "vorbis-debug-x86": {
+      "artifactName": "vorbis",
+      "buildCommand": "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj/local/x86/libvorbis.so",
+      "abi": "x86",
+      "output": "D:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\libvorbis.so"
+    },
+    "shout-debug-x86": {
+      "artifactName": "shout",
+      "buildCommand": "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj/local/x86/libshout.so",
+      "abi": "x86",
+      "output": "D:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\libshout.so"
+    },
+    "vorbis-jni-debug-x86": {
+      "artifactName": "vorbis-jni",
+      "buildCommand": "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj/local/x86/libvorbis-jni.so",
+      "abi": "x86",
+      "output": "D:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\libvorbis-jni.so"
+    },
+    "ogg-debug-x86": {
+      "artifactName": "ogg",
+      "buildCommand": "D:\\Tools\\SDK\\Android\\ndk\\20.1.5948944\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Android.mk NDK_APPLICATION_MK\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\src\\main\\cpp\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dD:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\lib D:/Work/Android/02_RFAnalyzer/app/build/intermediates/ndkBuild/debug/obj/local/x86/libogg.so",
+      "abi": "x86",
+      "output": "D:\\Work\\Android\\02_RFAnalyzer\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\libogg.so"
+    }
+  }
+}
